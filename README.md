@@ -36,7 +36,7 @@ allprojects {
 	</dependency>
   ```
 ### other ways
-see [InWords on jitpack](https://jitpack.io/#mimrahe/inwords/v1.0)
+see [InWords on jitpack](https://jitpack.io/#mimrahe/inwords)
 
 ## How to use
 add the library dependency to your app development
