@@ -52,6 +52,10 @@ Log.d("in words of " + number, numberInWords);
 Log.d("in words in persian", numberInWords);
 // results "پنجاه و چهار تریلیون و هشت صد و سی و پنج میلیارد و هفتصد و هشتاد و سه میلیون و هفتصد و چهل و پنج هزار و هفت صد و هشتاد و سه"
 ```
+
+### How to extend for your local language
+this tool is for languages that has numbers order that is like english numbers
+english numbers is 0-9, 10-19, 20-90, 100-900 that has different patterns between 0-9 and 10-19
 ## License
 **GNU General Public License v3.0**
 
