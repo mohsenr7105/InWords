@@ -55,7 +55,77 @@ Log.d("in words in persian", numberInWords);
 
 ### How to extend for your local language
 this tool is for languages that has numbers order that is like english numbers
+
 english numbers is 0-9, 10-19, 20-90, 100-900 that has different patterns between 0-9 and 10-19
+
+define this string resources for your language:
+```xml
+<resources>
+    <!-- replace values with your local language -->
+    <string name="inwords_n0">zero</string>
+    <string name="inwords_n1">one</string>
+    <string name="inwords_n2">two</string>
+    <string name="inwords_n3">three</string>
+    <string name="inwords_n4">four</string>
+    <string name="inwords_n5">five</string>
+    <string name="inwords_n6">six</string>
+    <string name="inwords_n7">seven</string>
+    <string name="inwords_n8">eight</string>
+    <string name="inwords_n9">nine</string>
+    <string name="inwords_n10">ten</string>
+    <string name="inwords_n11">eleven</string>
+    <string name="inwords_n12">twelve</string>
+    <string name="inwords_n13">thirteen</string>
+    <string name="inwords_n14">fourteen</string>
+    <string name="inwords_n15">fifteen</string>
+    <string name="inwords_n16">sixteen</string>
+    <string name="inwords_n17">seventeen</string>
+    <string name="inwords_n18">eighteen</string>
+    <string name="inwords_n19">nineteen</string>
+    <string name="inwords_n20">twenty</string>
+    <string name="inwords_n30">thirty</string>
+    <string name="inwords_n40">forty</string>
+    <string name="inwords_n50">fifty</string>
+    <string name="inwords_n60">sixty</string>
+    <string name="inwords_n70">seventy</string>
+    <string name="inwords_n80">eighty</string>
+    <string name="inwords_n90">ninety</string>
+    <string name="inwords_n100">one hundred</string>
+    <string name="inwords_n200">two hundred</string>
+    <string name="inwords_n300">three hundred</string>
+    <string name="inwords_n400">four hundred</string>
+    <string name="inwords_n500">five hundred</string>
+    <string name="inwords_n600">six hundred</string>
+    <string name="inwords_n700">seven hundred</string>
+    <string name="inwords_n800">eight hundred</string>
+    <string name="inwords_n900">nine hundred</string>
+    <string name="inwords_n0x3">thousands</string>
+    <string name="inwords_n0x6">millions</string>
+    <string name="inwords_n0x9">milliards</string>
+    <string name="inwords_n0x12">trillions</string>
+    <string name="inwords_n0x15">trilliards</string>
+    <string name="inwords_empty"/><!-- don't touch this item -->
+    <string name="inwords_digits_delimiter"></string><!-- this delimiter place between digits -->
+    <string name="inwords_3digits_delimiter">,</string><!-- this delimiter place between 3digits -->
+</resources>
+```
+**Note**
+
+example for delimiters:
+
+number 345,456: three hundred forty five thousand , four hundred fifty six
+
+""(empty) is inwords_digits_delimiter
+
+","(comma) is inwords_3digits_delimiter
+
+other example
+
+three hundred _ forty _ five _ thousand * four hundred _ fifty _ six
+
+"_" is inwords_digits_delimiter
+
+"*" is inwords_3digits_delimiter
 ## License
 **GNU General Public License v3.0**
 
