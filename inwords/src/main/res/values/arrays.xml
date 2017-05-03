@@ -1,57 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <array name="no0_19">
-        <item>@string/n0</item>
-        <item>@string/n1</item>
-        <item>@string/n2</item>
-        <item>@string/n3</item>
-        <item>@string/n4</item>
-        <item>@string/n5</item>
-        <item>@string/n6</item>
-        <item>@string/n7</item>
-        <item>@string/n8</item>
-        <item>@string/n9</item>
-        <item>@string/n10</item>
-        <item>@string/n11</item>
-        <item>@string/n12</item>
-        <item>@string/n13</item>
-        <item>@string/n14</item>
-        <item>@string/n15</item>
-        <item>@string/n16</item>
-        <item>@string/n17</item>
-        <item>@string/n18</item>
-        <item>@string/n19</item>
+    <array name="inwords_no0_19">
+        <item>@string/inwords_n0</item>
+        <item>@string/inwords_n1</item>
+        <item>@string/inwords_n2</item>
+        <item>@string/inwords_n3</item>
+        <item>@string/inwords_n4</item>
+        <item>@string/inwords_n5</item>
+        <item>@string/inwords_n6</item>
+        <item>@string/inwords_n7</item>
+        <item>@string/inwords_n8</item>
+        <item>@string/inwords_n9</item>
+        <item>@string/inwords_n10</item>
+        <item>@string/inwords_n11</item>
+        <item>@string/inwords_n12</item>
+        <item>@string/inwords_n13</item>
+        <item>@string/inwords_n14</item>
+        <item>@string/inwords_n15</item>
+        <item>@string/inwords_n16</item>
+        <item>@string/inwords_n17</item>
+        <item>@string/inwords_n18</item>
+        <item>@string/inwords_n19</item>
     </array>
-    <array name="no20_90">
-        <item>@string/empty</item>
-        <item>@string/empty</item>
-        <item>@string/n20</item>
-        <item>@string/n30</item>
-        <item>@string/n40</item>
-        <item>@string/n50</item>
-        <item>@string/n60</item>
-        <item>@string/n70</item>
-        <item>@string/n80</item>
-        <item>@string/n90</item>
+    <array name="inwords_no20_90">
+        <item>@string/inwords_empty</item>
+        <item>@string/inwords_empty</item>
+        <item>@string/inwords_n20</item>
+        <item>@string/inwords_n30</item>
+        <item>@string/inwords_n40</item>
+        <item>@string/inwords_n50</item>
+        <item>@string/inwords_n60</item>
+        <item>@string/inwords_n70</item>
+        <item>@string/inwords_n80</item>
+        <item>@string/inwords_n90</item>
     </array>
-    <array name="no100_900">
-        <item>@string/empty</item>
-        <item>@string/n100</item>
-        <item>@string/n200</item>
-        <item>@string/n300</item>
-        <item>@string/n400</item>
-        <item>@string/n500</item>
-        <item>@string/n600</item>
-        <item>@string/n700</item>
-        <item>@string/n800</item>
-        <item>@string/n900</item>
+    <array name="inwords_no100_900">
+        <item>@string/inwords_empty</item>
+        <item>@string/inwords_n100</item>
+        <item>@string/inwords_n200</item>
+        <item>@string/inwords_n300</item>
+        <item>@string/inwords_n400</item>
+        <item>@string/inwords_n500</item>
+        <item>@string/inwords_n600</item>
+        <item>@string/inwords_n700</item>
+        <item>@string/inwords_n800</item>
+        <item>@string/inwords_n900</item>
     </array>
-    <array name="names">
-        <item>@string/empty</item>
-        <item>@string/n0x3</item>
-        <item>@string/n0x6</item>
-        <item>@string/n0x9</item>
-        <item>@string/n0x12</item>
-        <item>@string/n0x15</item>
+    <array name="inwords_names">
+        <item>@string/inwords_empty</item>
+        <item>@string/inwords_n0x3</item>
+        <item>@string/inwords_n0x6</item>
+        <item>@string/inwords_n0x9</item>
+        <item>@string/inwords_n0x12</item>
+        <item>@string/inwords_n0x15</item>
     </array>
 </resources>

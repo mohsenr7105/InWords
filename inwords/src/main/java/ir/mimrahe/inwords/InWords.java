@@ -40,7 +40,7 @@ public class InWords {
     public static String from(Context context, long number){
         // if number equals zero then return "zero"
         if (number == 0){
-            return context.getResources().getString(R.string.n0);
+            return context.getResources().getString(R.string.inwords_n0);
         }
         // split number 3 digits by 3 into array list
         ArrayList<Long> splited = new ArrayList<>();
@@ -54,7 +54,7 @@ public class InWords {
             collected.add(getInstance().getInWords(context, num));
         }
         // add postfix for numbers
-        String[] names = context.getResources().getStringArray(R.array.names);
+        String[] names = context.getResources().getStringArray(R.array.inwords_names);
         for (int i = 0; i < collected.size(); i++){
             if (!collected.get(i).isEmpty()){
                 collected.set(i, collected.get(i) + " " + names[i]);
@@ -90,9 +90,9 @@ public class InWords {
             return "";
         }
         // string resources contains 0-900 in words
-        String[] array0_19strings = context.getResources().getStringArray(R.array.no0_19);
-        String[] array20_90strings = context.getResources().getStringArray(R.array.no20_90);
-        String[] array100_900strings = context.getResources().getStringArray(R.array.no100_900);
+        String[] array0_19strings = context.getResources().getStringArray(R.array.inwords_no0_19);
+        String[] array20_90strings = context.getResources().getStringArray(R.array.inwords_no20_90);
+        String[] array100_900strings = context.getResources().getStringArray(R.array.inwords_no100_900);
         ArrayList<String> result = new ArrayList<>();
         int mod100 = (int) number % 100;
         int mod10;
