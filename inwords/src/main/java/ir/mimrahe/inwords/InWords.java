@@ -67,7 +67,13 @@ public class InWords {
             // reverse collected for fix order
             Collections.reverse(collected);
             // join collected into string with delimiter "and"
-            result = TextUtils.join(" " + context.getResources().getString(R.string.inwords_digits_delimiter) + " ", collected);
+            String delimiter = context.getString(R.string.inwords_3digits_delimiter);
+            if(delimiter.isEmpty()){
+                delimiter = " ";
+            } else {
+                delimiter = " " + delimiter + " ";
+            }
+            result = TextUtils.join(delimiter, collected);
         }
         return result;
     }
@@ -114,10 +120,16 @@ public class InWords {
         if (mod10 != 0){
             result.add(array100_900strings[mod10]);
         }
-        // join digits by demiliter and return string contains in words of 3digit number
+        // join digits by delimiter and return string contains in words of 3digit number
         if (!result.isEmpty()){
             Collections.reverse(result);
-            return TextUtils.join(" " + context.getResources().getString(R.string.inwords_digits_delimiter) + " ", result);
+            String delimiter = context.getString(R.string.inwords_digits_delimiter);
+            if(delimiter.isEmpty()){
+                delimiter = " ";
+            } else {
+                delimiter = " " + delimiter + " ";
+            }
+            return TextUtils.join(delimiter, result);
         }
         return "";
     }

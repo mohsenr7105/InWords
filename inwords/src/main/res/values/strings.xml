@@ -44,4 +44,5 @@
     <string name="n0x15">trilliards</string>
     <string name="empty"/>
     <string name="inwords_digits_delimiter"/>
+    <string name="inwords_3digits_delimiter">,</string>
 </resources>
