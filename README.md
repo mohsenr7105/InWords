@@ -15,7 +15,7 @@ allprojects {
   then add the depenceny
   ```
   dependencies {
-	        compile 'com.github.mimrahe:inwords:v1.1'
+	        compile 'com.github.mimrahe:inwords:v1.2'
 	}
   ```
   ### in maven
@@ -32,7 +32,7 @@ allprojects {
   <dependency>
 	    <groupId>com.github.mimrahe</groupId>
 	    <artifactId>inwords</artifactId>
-	    <version>v1.1</version>
+	    <version>v1.2</version>
 	</dependency>
   ```
 ### other ways
