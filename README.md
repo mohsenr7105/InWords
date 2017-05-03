@@ -46,3 +46,13 @@ long number = 54835783745783;
 String numberInWords = ir.mimrahe.inwords.InWords.from(getApplicationContext(), number);
 Log.d("in words of " + number, numberInWords);
 // results "fifty-four trillion, eight hundred thirty-five billion, seven hundred eighty-three million, seven hundred forty-five thousand, seven hundred eighty-three"
+```
+**this is a local based tool so persian in words is supported**
+```java
+Log.d("in words in persian", numberInWords);
+// results "پنجاه و چهار تریلیون و هشت صد و سی و پنج میلیارد و هفتصد و هشتاد و سه میلیون و هفتصد و چهل و پنج هزار و هفت صد و هشتاد و سه"
+```
+## License
+**GNU General Public License v3.0**
+
+Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights.
